@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-transparent py-4 text-center text-sm text-gray-600 dark:text-gray-400">
-    <div>© {{ new Date().getFullYear() }} made with ♥️ by <a class="text-purple-600" href="https://jianzhugo.cn">水常</a></div>
+    <div>© {{ new Date().getFullYear() }} made with by <a class="text-purple-600" href="https://jianzhugo.cn">MY</a></div>
     <div>已稳定运行: {{ uptime }}</div> 
     <div><a href="http://beian.miit.gov.cn/" rel="nofollow" target="_blank"> 闽ICP备2025084128号-1 </a></div>
   </footer>
@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      startDate: new Date('2025-03-01'),
+      startDate: new Date('2025-07-01'),
       currentYear: new Date().getFullYear(),
       now: new Date() // 新增当前时间响应式数据
     };
